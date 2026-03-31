@@ -26,7 +26,7 @@ export default function Nav() {
           style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
           <div className="relative mb-1" style={{ width: '110px', height: '38px' }}>
             <Image
-              src="/MiaXu_Logo_white.png"
+              src="/MiaXu Logo - color.png"
               alt="Mia Xu"
               fill
               className="object-contain object-left"
