@@ -30,15 +30,15 @@ This is a working personal tool I made for my own practice, not a polished multi
 
 ##  What it does
 
-- ** Session logging** — log practice sessions by club(s), drill type (full swing, half swing, short game, putting, warm-up), distance, ball flight direction, and free-text notes on how the swing felt
-- ** Trend dashboard** — Recharts visualizations of practice frequency and patterns over time, filterable by club
-- ** Swing video library** — upload swing videos to Supabase Storage, organized by club and drill type
-- ** AI swing analysis** — the standout feature: videos are run through **MediaPipe Pose** entirely in the browser (no server-side processing) to extract body landmarks, then compute real coaching metrics:
+- **Session logging** — log practice sessions by club(s), drill type (full swing, half swing, short game, putting, warm-up), distance, ball flight direction, and free-text notes on how the swing felt
+- **Trend dashboard** — Recharts visualizations of practice frequency and patterns over time, filterable by club
+- **Swing video library** — upload swing videos to Supabase Storage, organized by club and drill type
+- **AI swing analysis** — the standout feature: videos are run through **MediaPipe Pose** entirely in the browser (no server-side processing) to extract body landmarks, then compute real coaching metrics:
   - **X-Factor** (shoulder–hip separation angle)
   - **Wrist angle** at impact
   - **Finish balance** score
   - Plain-language insights generated from the computed metrics
-- ** Side-by-side video compare** — sync two swing videos to play/pause/reset together, for comparing technique across sessions
+- **Side-by-side video compare** — sync two swing videos to play/pause/reset together, for comparing technique across sessions
 
 ##  Architecture notes
 
